@@ -5,7 +5,7 @@ class Box {
     double h;
     double w;
     //private double x; // if anything is priviate we can only use that in that file only.
-
+    double weigt = 5;
     Box(){
         this.h = -1;
         this.l = -1;

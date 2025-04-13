@@ -32,6 +32,6 @@ public class Main {
         * Object type must match or be a subtype of reference type.
         */
         // BoxWeight box6 = new Box(4,5,6)
-
+//        System.out.println(super.weigt); // to directly point to weight in the Box Class (parent)
     }
 }
