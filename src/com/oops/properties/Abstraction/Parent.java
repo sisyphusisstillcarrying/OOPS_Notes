@@ -1,6 +1,10 @@
 package com.oops.properties.Abstraction;
 
-public class A {
+public abstract class Parent {
+    abstract void career();
+    abstract void partner();
+
+    // if function need to be overriden then declare them abstract.
     // Abstraction
     // through abstract classes we can have multipe inheritance
     // it is used when we want to know what to do but not how to do it.
@@ -11,4 +15,4 @@ public class A {
     // any class which contains one or more abstract method it should also be declared as abstract.
 }
 
-abstract void Career(String name);
+
